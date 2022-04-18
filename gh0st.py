@@ -115,9 +115,10 @@ while True:
 		os.system ("clear")
 	elif opcionMenu=="4":
 		print ("")
-		input("Has pulsado la opción 4...\npulsa una tecla para continuar")
+		input("en tu culo mi aparato")
 		os.system ("clear")
 	elif opcionMenu=="5":
+		pritn("Por el culo te la hinco tontito xd")
 		break
 	else:
 		print ("")
