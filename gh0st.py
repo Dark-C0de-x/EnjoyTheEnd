@@ -55,7 +55,9 @@ def DoS():
 	os.system("sleep 0.1")
 	print("       ................................")
 	print("")
-	ip = input("Ingresa ip objetivo -> ")
+	print("(Ejemplo: https://www.google.es)")
+	print("")
+	ip = input("Ingresa url objetivo -> ")
 	print("[*] iniciando ataque...")
 	print("")
 	os.system("go run hulk.go -site " + ip)
@@ -111,7 +113,7 @@ while True:
 		os.system ("clear")
 	elif opcionMenu=="3":
 		print ("")
-		os.system("gnome-terminal python sec.py")
+		os.system("gnome-terminal --command=python sec.py")
 		os.system ("clear")
 	elif opcionMenu=="4":
 		print ("")
