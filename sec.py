@@ -4,7 +4,7 @@ import platform
 from plyer import notification
 
 
-api_key = "61e6f52fa0424f5aa17d435f93b63637" #aqui tu api key xd
+api_key = "" #aqui tu api key xd
 
 connected = b'{"city":"null"}'
 
