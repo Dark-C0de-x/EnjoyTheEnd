@@ -57,10 +57,10 @@ def DoS():
 	print("")
 	print("(Ejemplo: https://www.google.es)")
 	print("")
-	ip = input("Ingresa url objetivo -> ")
+	url = input("Ingresa url objetivo -> ")
 	print("[*] iniciando ataque...")
 	print("")
-	os.system("go run hulk.go -site " + ip)
+	os.system("go run hulk.go -site " + url)
 
 
 
